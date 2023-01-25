@@ -5,7 +5,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-    - run  echo "Testing stuff" 
+    - run: echo "Testing stuff" 
     - name: Check out repository code
       uses: actions/checkout@v3
     - name: List files in the repository
